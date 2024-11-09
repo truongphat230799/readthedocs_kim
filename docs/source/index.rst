@@ -1,7 +1,7 @@
 Nguyễn Thị Đào Kim - Trường TiHTH Đại học Sài Gòn
 ======================================
 
-Cô Nguyễn Thị Đào Kim xin chào tất cả các bạn!
+Cô Đào Kim xin chào tất cả các bạn!
 
 Đây là trang tài liệu của cô Kim.
 
