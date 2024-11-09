@@ -1,12 +1,12 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
-project = 'OhStem Education Wiki'
-copyright = '2022, OHSTEM'
-author = 'OHSTEM EDUCATION'
+project = 'Dao Kim Wiki'
+copyright = '2024, NGUYEN THI DAO KIM'
+author = 'NGUYEN THI DAO KIM'
 
-release = '2.0'
-version = '2.0.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
@@ -28,10 +28,10 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme' # pip3 install sphinx_rtd_theme
 
-html_logo = 'images/daokim-logo.png'
+html_logo = 'image/daokim-logo.png'
 
 
-html_favicon = 'images/favicon.ico'
+html_favicon = 'image/weblogo.png'
 
 html_theme_options = {
     #'analytics_id': 'UA-XXXXXXX-1',  #  Provided by Google in your dashboard
