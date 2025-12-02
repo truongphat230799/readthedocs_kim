@@ -1,0 +1,71 @@
+{% extends "!layout.html" %}
+
+{% block stylesheet %}
+    {{ super() }}
+{% endblock %}
+
+{% block extrabody %}
+
+<!-- DK NAVBAR -->
+<nav class="dk-navbar">
+  <div class="dk-nav-container">
+
+    <div class="dk-logo">Tài liệu Cô Đào Kim</div>
+
+    <ul class="dk-nav-menu">
+      <li><a href="{{ pathto('index') }}">Trang chủ</a></li>
+      <li><a href="{{ pathto('class1/book_class1') }}">Lớp 1</a></li>
+      <li><a href="{{ pathto('class3/stem_class3') }}">STEM</a></li>
+      <li><a href="{{ pathto('search') }}">Tìm kiếm</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- DK HERO -->
+<header class="dk-hero">
+  <div class="dk-container dk-hero-inner">
+
+    <div class="dk-hero-text">
+      <h1 class="dk-title">Chào mừng đến với kho học liệu của cô Đào Kim!</h1>
+      <p class="dk-subtitle">Tài liệu – Bài giảng – Dự án STEM – Công cụ học tập cho học sinh</p>
+
+      <form class="dk-search-bar" action="{{ pathto('search') }}" method="get">
+        <input type="text" name="q" placeholder="Tìm bài học, tài liệu, dự án..." />
+      </form>
+    </div>
+
+    <div class="dk-hero-img">
+      <img src="{{ pathto('_static/images/wiki_hero.png', 1) }}" alt="Welcome">
+    </div>
+
+  </div>
+</header>
+
+{{ super() }}
+
+<!-- DK FOOTER -->
+<footer class="dk-footer">
+  <div class="dk-container dk-footer-inner">
+
+    <div class="dk-footer-col">
+      <h4>Tài liệu</h4>
+      <a href="{{ pathto('class1/book_class1') }}">Lớp 1</a>
+      <a href="{{ pathto('class3/stem_class3') }}">STEM</a>
+    </div>
+
+    <div class="dk-footer-col">
+      <h4>Thông tin</h4>
+      <p>Trang học liệu dành cho học sinh Tiểu học.</p>
+    </div>
+
+    <div class="dk-footer-col">
+      <h4>Liên hệ</h4>
+      <p>Giáo viên: Đào Kim</p>
+      <p>Email: (bổ sung sau)</p>
+    </div>
+
+  </div>
+</footer>
+
+{% endblock %}

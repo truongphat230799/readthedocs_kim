@@ -1,0 +1,153 @@
+/* ==== GENERAL ==== */
+.dk-container {
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  /* ==== NAVBAR ==== */
+  .dk-navbar {
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .dk-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dk-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .dk-nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+  }
+  
+  .dk-nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .dk-nav-menu li a:hover {
+    color: #1e88e5;
+  }
+  
+  /* ==== HERO ==== */
+  .dk-hero {
+    background: #f8fbff;
+    padding: 50px 0 60px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .dk-hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dk-hero-text {
+    max-width: 50%;
+  }
+  
+  .dk-title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .dk-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+  }
+  
+  .dk-search-bar input {
+    width: 320px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .dk-hero-img {
+    max-width: 40%;
+  }
+  
+  /* ==== CARD GRID ==== */
+  .dk-section-title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+  }
+  
+  .dk-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  
+  .dk-card {
+    display: block;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #eee;
+    transition: 0.2s;
+  }
+  
+  .dk-card:hover {
+    transform: translateY(-4px);
+    border-color: #90caf9;
+  }
+  
+  .dk-card-img {
+    width: 120px;
+    margin: auto;
+  }
+  
+  /* ==== FOOTER ==== */
+  .dk-footer {
+    background: #f2f4f7;
+    padding: 35px 0;
+    margin-top: 50px;
+  }
+  
+  .dk-footer-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dk-footer-col h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .dk-footer-col a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .dk-footer-col a:hover {
+    color: #1e88e5;
+  }
+  
