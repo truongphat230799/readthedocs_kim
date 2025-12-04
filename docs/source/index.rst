@@ -15,7 +15,7 @@ Cô Đào Kim xin chào tất cả các bạn!
    :maxdepth: 2
    :caption: Trò chơi
 
-   game/game.html
+   game/game.rst
 
 
 
