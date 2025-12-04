@@ -15,23 +15,7 @@ Cô Đào Kim xin chào tất cả các bạn!
    :maxdepth: 2
    :caption: Trò chơi
 
-   game/game.rst
+   game/game.html
 
 
-.. raw:: html
 
-   <section class="dk-section">
-     <div class="dk-container">
-       <h2 class="dk-section-title">Danh mục chính</h2>
-
-       <div class="dk-card-grid">
-
-         <a class="dk-card" href="class1/book_class1.html">
-           <img class="dk-card-img" src="_static/images/class1.png">
-           <h3>Lớp 1</h3>
-           <p>Tài liệu – bài giảng – bài tập.</p>
-         </a>
-
-       </div>
-     </div>
-   </section>
